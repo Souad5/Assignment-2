@@ -1,0 +1,164 @@
+.quicksand{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 141px 0px;
+}
+.sch{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.school{
+    font-weight: bold;
+    font-size: 32px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+.home1{
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.about{
+    color: skyblue;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.fac{
+    color: #05D4DF;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.admission{
+    color: #5D58EF;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn{
+    background-color: orange;
+    color: #ffffff;
+    width: 195px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+}
+.fa-solid, .fa-bars{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .school, .list, .btn{
+        display: none;
+    }
+    .home, .sch{
+        display: flex;
+        margin-left: 20px;
+        justify-content: space-between;
+        align-items: center;
+        width: 380px;
+        height: 70px;
+        margin-right: 20px;
+    }
+    
+    .fa-solid, .fa-bars{
+        display:flex;
+        font-size: 30px;
+    } 
+}
+.med-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 50px;
+}
+.img-bat{
+    width: 360px;
+    height: 450px;
+}
+.orange{
+    color: orange;
+}
+.skyblue{
+    color: skyblue;
+}
+.text-med{
+    width: 540px;
+    height: 330px;
+}
+.empower{
+    font-weight: bold;
+    font-size: 56px;
+    margin-bottom: 24px;
+}
+.with{
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.enroll{
+    background-color: black;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    width: 190px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.enroll:hover{
+    background-color: orange;
+}
+@media screen and (max-width:576px) {
+    .med-body{
+        flex-direction: column-reverse;
+    }
+    .text-med{
+        width: 350px;
+        height: 250px;
+        place-items: center;
+    }
+    .empower{
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .with{
+        font-size: 20px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .img-bat{
+        width: 320px;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+    }
+}
