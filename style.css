@@ -328,8 +328,8 @@ body{
 }
 .stories-flex{
     display: flex;
-    /* justify-content:center;
-    align-items: center; */
+    justify-content:center;
+    align-items: center;
     margin-left: 140px;
     margin-right: 140px;
     gap: 20px;
