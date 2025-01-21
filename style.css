@@ -509,15 +509,15 @@ body{
         flex-direction: column;
     }
     .first-foot{
-        margin-left: 120px;
+        margin-left: 20px;
     }
     .second-foot{
-        margin-left: -120px;
+        margin-left: -220px;
         margin-top: -60px;
         margin-bottom: 20px;
     }
     .third-foot{
-        margin-left: -60px;
+        margin-left: -160px;
         margin-top: 20px;
     }
 }
