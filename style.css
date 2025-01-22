@@ -521,6 +521,9 @@ body{
         margin-top: 20px;
     }
 }
+.logo-last{
+    color: #ffffff;
+}
 .marquee{
     font-weight: bolder;
     font-size: 55px;
